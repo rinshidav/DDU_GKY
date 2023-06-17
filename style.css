@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.navbar{
+    background-color: #3d227d;
+    color: white;
+    align-items: center;
+}
+#nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+#h1{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#img{
+    border-radius: 50%;
+}
+.top{
+    padding: 100px 0px;
+}
+.collapse{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 40px; */
+    padding: 0px 130px;
+}
+.collapse li{
+    padding: 0px 15px;
+}
+.middle{
+    padding: 150px 0px;
+
+}
+#careers{
+    text-align: center;
+    
+}
+.middle h5{
+    text-align: center;
+}
+.middle p{
+    text-align: start; 
+    font-size: 14px;
+    padding: 15px 50px; 
+    line-height: 30px;
+}
+.box{
+    margin-left: 60px;
+}
+.card-body p{
+    font-size: 14px;
+    
+}
+.card-body {
+    height: 220px;
+}
+.left{
+    background-color: #3d227d;
+    color: white;   
+}
+#form{
+    /* border: 1px solid black; */
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 20px 100px; */
+}
+#form input{
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    width: 300px;
+}
+#sbtn{
+    /* background: transparent; */
+    border: 1px solid white;
+    width: 80px;
+    height: 20px;
+    color: white;
+}
+.left{
+    padding: 30px 500px;
+}
+a:hover{
+    background-color: rgba(131, 131, 131, 0.192);
+    scale: 1.03;
+}
+.card:hover{
+    background-color: rgba(131, 131, 131, 0.192);
+    scale: 1.03;
+    transition: 0.5s;
+}
+
+
+@media(max-width:500px){
+    .left{
+        padding: 30px 30px;
+        width: 380px;
+
+    }
+    #form input{
+        width: 150px;
+    }
+    #form label{
+        width: 100px;
+        display: inline-block;
+    }
+}
+@media(max-width:320px){
+    .left{
+        width: 800px;
+    }
+}
